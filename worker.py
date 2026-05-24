@@ -49,7 +49,7 @@ def speech_to_text(audio_binary):
     """
 
     # Watson Speech-to-Text base URL
-    base_url = "..."
+    base_url = "https://sn-watson-stt.labs.skills.network"
 
     # Full Speech-to-Text API endpoint
     api_url = base_url + "/speech-to-text/api/v1/recognize"
@@ -97,7 +97,7 @@ def text_to_speech(text, voice=""):
     """
 
     # Watson Text-to-Speech base URL
-    base_url = "..."
+    base_url = "https://sn-watson-tts.labs.skills.network"
 
     # Full Text-to-Speech API endpoint
     api_url = base_url + "/text-to-speech/api/v1/synthesize?output=output_text.wav"
